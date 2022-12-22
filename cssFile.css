@@ -1,0 +1,297 @@
+.header{
+    height:50px;
+  width:500px;
+    border: 2px solid red;
+    padding: 1.5 em;
+    position: absolute;
+  left: 53%;
+  top: 0%;
+    
+    text-align: center;
+    background-color: red;
+    font-size: 40px;
+    color: #ffffff;
+}
+body{
+    background-image: url("drone_background.png");
+    
+    background-size: 1540px 730px;
+    max-width: 1920px;
+    max-height: 1080px;
+    position: absolute;
+    left: 0%;
+    top:0%;
+ 
+}
+
+.txtPos{
+
+    
+    position: absolute;
+    left: 32%;
+    top: 0%;
+    height:720px;
+  width:900px;
+    text-align: left;
+    color:#ffffff;
+}
+.txtPos1{
+    position: absolute;
+    left: 0%;
+    top: 720%;
+    height:720px;
+  width:900px;
+    text-align: left;
+    color:#ffffff;
+}
+.overviweTit{
+    position: absolute;
+    left: 33%;
+    top: 5%;
+}
+.overviewTxt{
+    position: absolute;
+    left: 34.5%;
+    top: 14%;
+}
+.predatorPic{
+    position: absolute;
+    left: 97%;
+    top: 14%;
+}
+.contentsTit{
+    position: absolute;
+    left: 33%;
+    top: 33%;
+}
+.frameTit{
+    position: absolute;
+    left: 36%;
+    top: 38%;
+}
+.frameTxt{
+    position: absolute;
+    left: 37.5%;
+    top: 45%;
+    width: 500px;
+}
+
+.fig2{
+    position: absolute; 
+    left: 33%; 
+    top: 56%;
+}
+.fig3{
+    position: absolute; 
+    left: 80%; 
+    top: 56%;
+}
+.fig4{
+    position: absolute; 
+    left: 56%; 
+    top: 109%;
+}
+.motorsTit{ 
+    position: absolute;
+    left: 36%;
+    top: 161%;
+}
+.motorTxt{
+    position: absolute;
+    left: 37.5%;
+    top: 168%;
+}
+.motorPic{
+    position: absolute;
+    left: 97%;
+    top: 168%;
+    
+}
+.escTit{ 
+    position: absolute;
+    left: 36%;
+    top: 193%;
+}
+.escTxt{
+    position: absolute;
+    left: 37.5%;
+    top: 201%;
+}
+.escPic{
+    position: absolute;
+    left: 97%;
+    top: 201%;
+}
+.PropellerTit{ 
+    position: absolute;
+    left: 36%;
+    top: 221%;
+}
+.PropellerTxt{
+    position: absolute;
+    left: 37.5%;
+    top: 228.5%;
+}
+.propellerimg{
+    position: absolute;
+    left: 97%;
+    top: 228.5%;
+}
+td{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 28px;
+    
+}
+
+tr:nth-child(even){
+background-color: gray;
+
+
+}
+tr:nth-child(odd){
+    background-color: black;
+    color: rgb(224, 224, 224);
+
+}
+table{
+border-collapse: collapse;
+text-align: center;
+width: 600px;
+}
+.FS-i6xTit{
+    position: absolute;
+    left: 36%;
+    top: 256%;
+}
+.FS-i6xTxt{
+    position: absolute;
+    left: 48%;
+    top: 265%;
+}
+.batteryTit{
+    position: absolute;
+    left: 36%;
+    top: 302%;
+}
+.batteryTxt{
+    position: absolute;
+    left: 48%;
+    top: 311%;
+}
+.ardupilotTit{
+    position: absolute;
+    left: 36%;
+    top: 336%;
+}
+.ardupilotTxt{
+    position: absolute;
+    left: 48%;
+    top: 345%;
+}
+.powerDTit{ 
+    position: absolute;
+left: 36%;
+top: 375%;
+}
+.powerDTxt{
+    position: absolute;
+left: 37.5%;
+top: 383%;
+}
+.powerDPic{
+    position: absolute;
+    left: 57%;
+    top: 393%;
+}
+.gpsTit{
+    position: absolute;
+    left: 36%;
+    top: 447%;
+}
+.gpsTxt{
+    position: absolute;
+    left: 48%;
+    top: 456%;
+}
+.telemetryTxt{
+    position: absolute;
+    left: 48%;
+    top: 496%;
+}
+.telemetryTit{
+    position: absolute;
+    left: 36%;
+    top: 487%;
+}
+.distanceSensorTit{
+    position: absolute;
+    left: 36%;
+    top: 528%;
+}
+.distanceSensorTxt{
+    position: absolute;
+    left: 37.5%;
+    top: 536%;
+}
+.lizpic{
+    position: absolute;
+    left: 55%;
+    top: 549%;
+}
+.apmTit{
+    position: absolute;
+    left: 36%;
+    top: 601%;
+}
+.apmTxt{
+    position: absolute;
+    left: 37.5%;
+    top: 609%;
+}
+.apmPic{
+    position: absolute;
+    left: 56%;
+    top: 622%;
+}
+.fix{
+    position: absolute;
+    left: 1440;
+    top: 5250px;
+}
+.sim{
+    position: absolute;
+    left: 33%;
+    top: 672%;
+}
+.game{
+    position: absolute;
+    left: 37%;
+    top: 683%;
+}
+.link{
+    position: absolute;
+    left: 37%;
+    top: 743%;
+}
+.hrdiv{
+    position: absolute;
+
+    top:5502px;
+    
+}
+.nam{
+    position: absolute;
+    left: 0%;
+    top: 770%;
+}
+
+.border{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1.5 em;
+    height:5500px;
+  width:920px;
+position: absolute;
+left: 270px;
+top: -8px;
+}

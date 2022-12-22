@@ -1,0 +1,244 @@
+<head>
+    <title>The predator catalog</title>
+    <link rel="stylesheet" href="cssFile.css">
+</head>
+
+<body>
+    
+    <div class = "txtPos">
+        <div class="header"><header>THE  PREDATOR CATALOG</header></div>
+    <div class="overviweTit">
+        <h1>Overview:</h1>
+    </div>
+    <div class="overviewTxt">
+    A quadcopter, also known as a multirotor, drone, or quadrotor, is a simple
+    <br> flying mechanical aircraft with four arms as shown in fig(1) and a motor<br> coupled to a propeller
+    in each arm.
+    in this 
+    project, a four-arm quadcopter<br> going to be constructed using a mixture 
+    of software and hardware <br>components, The constructed 
+    drone will be functionalized and controlled<br> by several methods; 
+    computer screen, mobile,and remote  controller<br> (RC), The drone 
+    performs its tasks using ArduPilot which utilizes<br> a certain piece of 
+    software.
+    </div> 
+    <img class="predatorPic" src="qc.jpg" alt="predator" width="25%" height="20%">
+    <div class="contentsTit"><h1>Contents of drone:</h1></div>
+    <ul>
+        <li class="frameTit"><h2>Frame</h2></li>
+            <div class="frameTxt">In this project a stretch-x frame will be used to build the drone, this<br>
+                frame is built of a lightweight carbon fiber and hard plastic to resist<br> 
+                shocks and accidents. The fig(2) shows the upper part, fig(3) shows<br> the bottom part, fig(4) shows wings structure.
+
+            </div>
+            <img class="fig2" src="frame0.jpg" alt="base" width="43%" height="50%" >
+            <img class="fig3" src="frame1.jpg" alt="base" width="50%" height="49.5%" >
+            </ul>
+    </div>  
+ 
+ <div class="txtPos1">
+    <img class="fig4" src="frame2.jpg" alt="base" width="50%" height="50%" >
+    <ul>
+        <li class ="motorsTit"><h2>Motors</h2></li>
+        <div class="motorTxt">Spinning motors have a significant part in drone capability. The 
+            motors<br> functioning principle is based on creating thrust by pushing 
+            air downwards.<br> The flight controller (APM) should use electronic 
+            speed controllers(ESC)<br> to convey information to the brushless motors in 
+            order to complete this<br> operation. Instructions for the direction 
+            and the revolutions per minute<br> are included in the data (RPM). On an 
+            equal space basis, the motors<br> should be arranged on the four corners 
+            of the drone. Two of the four<br> motors should be placed diagonally 
+            opposite each other, rotating in the<br> opposite direction as the other 
+            two. 920kv 
+            brushless motors(shown in fig(5)) <br>were chosen for this project to improve 
+            performance of controllers.
+            </div>
+            <img class="motorPic" src="motor.png" alt="motor" width="25%" height="25%">
+            <li class="escTit"><h2>ESC</h2></li>
+            <div class="escTxt">The electronic motor speed control (ESC) function converts a pilot's<br> 
+                commands into precise motion-control instructions transmitted to the <br>
+                motors. The Simonk 30A ESC(shown in fig(6)) was chosen because it is<br> specifically built for 
+                drones and enables better and more constant control <br>of motor speeds 
+                as well as better flying efficiency than other ESCs on <br>the market.
+                </div>
+                <img class="escPic" src="esc.png" alt="esc" width="25%" height="20%">
+                <li class="PropellerTit"><h2>Propeller</h2></li>
+                <div class="PropellerTxt">In general, propellers(shown in fig(7)) in the drone business lead in torque<br> and 
+                    generate the thrust to keep the drone aloft. The propellers are 
+                    responsible<br> for the upward push, which is measured in grams or 
+                    pounds. The thrust must<br>  be
+                    twice the drone's anticipated weight. The following formula is 
+                    used to<br> calculate thrust:
+                    Thrust = 2 * the approximate weight of the drone.<br>* The final thrust will divided by the number of motor.</div>
+                    <img class="propellerimg" src="Propeller.jpg" alt="propellerimg" width="25%" height="25%">
+                    <li class="FS-i6xTit"><h2>Digital proportional radio control system FS-i6x
+                    </h2></li>
+                    <div class="FS-i6xTxt">
+                        <table>
+                            <tr>
+                              <td scope="col" >RF Range </td>
+                              
+                              <td scope="col">2.40 ~ 2.48 </td>
+                              
+                            </tr>
+                            <tr>
+                              <td >Bandwidth</td>
+                              <td >500 KHZ</td>
+                
+                            </tr>
+                            
+                            <tr>
+                              <td >Dimensions</td>
+                              <td >9.45in * 8.27in * 4.33in</td>
+                              
+                            </tr>
+                            <tr>
+                                <td >weight</td>
+                                <td >700g</td>
+                               
+                              </tr>
+                          </table>
+                    </div>
+                    <li class="batteryTit"><h2>Battery</h2></li>
+                    <div class="batteryTxt"><table>
+                        <tr>
+                          <td scope="col" >Capacity </td>
+                          
+                          <td scope="col">1500mAh</td>
+                          
+                        </tr>
+                        <tr>
+                          <td >Discharge rate</td>
+                          <td >30c</td>
+            
+                        </tr>
+                        
+                        <tr>
+                          <td >Output voltage</td>
+                          <td >11.1v</td>
+                          
+                        </tr>
+                        
+                      </table></div>
+                      <li class="ardupilotTit"><h2>Ardupilot</h2></li>
+                      <div class="ardupilotTxt">
+                        <table>
+                            <tr>
+                              <td scope="col" >Flight controller model </td>
+                              
+                              <td scope="col">Ardupilot Mega 2.6 </td>
+                              
+                            </tr>
+                            <tr>
+                              <td >Size</td>
+                              <td >83mm * 44mm * 13mm</td>
+                
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td >weight</td>
+                                <td >700g</td>
+                               
+                              </tr>
+                              <tr>
+                                <td >Housing material</td>
+                                <td >plastic</td>
+                                
+                              </tr>
+                          </table>
+                      </div>
+                      <li class="powerDTit"><h2>Power Distribution Board</h2></li>
+                      <div class="powerDTxt">The power distribution board, often known as the PDB, is an 
+                        important hardware component that distributes power from the 
+                        battery to other hardware components. Fig(8) shows power distribution</div>
+                        <img class="powerDPic" src="power_d.jpg" alt="power" width="50%" height="50%">
+                        <li class="gpsTit"><h2>GPS</h2></li>
+                        <div class="gpsTxt">
+                            <table>
+                                <tr>
+                                  <td scope="col" >Model</td>
+                                  
+                                  <td scope="col">Ublox NEO-M7 </td>
+                                  
+                                </tr>
+                                <tr>
+                                  <td >Dimensions</td>
+                                  <td >54mm * 22mm </td>
+                    
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <td >Start Time</td>
+                                    <td >30s</td>
+                                   
+                                  </tr>
+                                  <tr>
+                                    <td >weight</td>
+                                    <td >33g</td>
+                                    
+                                  </tr>
+                              </table>
+                        </div>
+                        <li class="telemetryTit"><h2>Telemetry</h2></li>
+                        <div class="telemetryTxt">
+                            <table>
+                                <tr>
+                                  <td scope="col" >Bandwidth</td>
+                                  
+                                  <td scope="col">915MHz </td>
+                                  
+                                </tr>
+                                <tr>
+                                    <td >Power</td>
+                                    <td >500mw</td>
+                                   
+                                  </tr>
+                                <tr>
+                                  <td >Dimensions</td>
+                                  <td >4.47in * 3.54in * 0.98in</td>
+                    
+                                </tr>
+                                
+                                
+                                
+                                  <tr>
+                                    <td >weight</td>
+                                    <td >63g</td>
+                                    
+                                  </tr>
+                              </table>
+                        </div>
+                        <li class="distanceSensorTit"><h2>Distance sensor</h2></li>
+                        <div class="distanceSensorTxt">
+                            The LiDAR  Laser Distance Sensor (shown in fig(9)) These type of sensors are used to sense the obstacles. The distance sensors are based on 
+                            laser based. The above mentioned drone sensors are useful in design and development of drone system. The sensor will work 
+                            when the body approaches an approximate distance of 50-80cm.
+                        </div>
+                        <img class="lizpic" src="liz.png" alt="9pic" width="50%" height="50%">
+                        <li class="apmTit"><h2>airfly power module</h2></li>
+                        <div class="apmTxt">Apm main function is to measure the capacity 
+                            of the battery when it gets low it will send the order to the 
+                            microcontroller to return to the landing zone where it took off 
+                            immediately. APM will be connected between the battery 
+                            and the microcontroller. A.P.M is shown in fig(10)</div>
+                            <img class="apmPic" src="power-module.jpg" alt="apm" width="50%" height="50%">
+    
+                </ul>
+                <div class="sim"><h1>the predator Simulation: </h1> </div>
+                <iframe class="game" src="https://i.simmer.io/@ibrahim_sohail/the-predator-simulation" style="width:800px;height:400px"></iframe>
+                <a class="link" href="https://simmer.io/@ibrahim_sohail/the-predator-simulation">to get full predator Simulation click hear </a>
+                <div class="fix">.</div>
+                
+<cite class="nam">designed by Ibrahim Sohail @2022</cite>
+                
+                
+ 
+</div>
+
+</div>
+
+
+</body>
+<div class="border"></div>
